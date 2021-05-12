@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://jairomonassa:xampu78@monassa-shard-00-00-vgddz.mongodb.net:27017,monassa-shard-00-01-vgddz.mongodb.net:27017,monassa-shard-00-02-vgddz.mongodb.net:27017/test?ssl=true&replicaSet=Monassa-shard-0&authSource=admin&retryWrites=true",
+    "database": "",
+    "password": "xampu78",
+    "name": "mongo",
+    "user": "jairomonassa",
+    "connector": "mongodb"
+  }
+}

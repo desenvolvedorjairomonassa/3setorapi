@@ -1,0 +1,62 @@
+{
+  "name": "cliente",
+  "plural": "clientes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "codigo": {
+      "type": "string",
+      "required": true,
+      "default": "00000"
+    },
+    "tppessoa": {
+      "type": "string",
+      "required": true
+    },
+    "razao": {
+      "type": "string",
+      "required": true
+    },
+    "fantasia": {
+      "type": "string"
+    },
+    "documento": {
+      "type": "string"
+    },
+    "inscrMunicipal": {
+      "type": "string"
+    },
+    "inscrEstadual": {
+      "type": "string"
+    },
+    "dataCadastro": {
+      "type": "date",
+      "required": false
+    },
+    "fone": {
+      "type": "string"
+    },
+    "fone2": {
+      "type": "string"
+    },
+    "celular": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "object"
+    },
+    "cobranca": {
+      "type": "object"
+    },
+    "entrega": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

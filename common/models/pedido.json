@@ -1,0 +1,29 @@
+{
+  "name": "pedido",
+  "plural": "pedidos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "codigo": {
+      "type": "string",
+      "required": true
+    },
+    "quantidadeparcelas": {
+      "type": "number"
+    },
+    "inicio": {
+      "type": "date",
+      "required": true
+    },
+    "valorparcela": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
